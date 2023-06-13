@@ -79,15 +79,15 @@ const Auth = () => {
               {variant === 'login' ? 'Sign In' : 'Sign Up'}
             </h2>
             <div className="flex flex-col gap-4">
-              {/* {variant === 'register' && (
+              {variant === 'register' && (
                 <Input
                   id="name"
                   type="text"
-                  label="Username"
+                  label="Name"
                   value={name}
                   onChange={(e: any) => setName(e.target.value)}
                 />
-              )} */}
+              )}
               <Input
                 id="email"
                 type="email"
@@ -121,10 +121,10 @@ const Auth = () => {
               </span>
               .
             </p>
-            <p className="text-neutral-500 text-xs mt-2">
+            {/* <p className="text-neutral-500 text-xs mt-2">
               {variant === 'login' ? "This page is protected by Google reCAPTCHA to ensure you're not a bot." : ''}
 
-            </p>
+            </p> */}
           </div>
         </div>
       </div>
