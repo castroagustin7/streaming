@@ -19,7 +19,6 @@ export default function App({
   return (
     <>
       <Head>
-        <meta name="google-site-verification" content="40FmWyNTGR6qhwpA7ijk7BwfaA0OP2eO_fM4wkscBNw" />
       </Head>
       <span className={customFont.className}>
 
